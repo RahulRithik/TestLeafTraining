@@ -3,7 +3,7 @@ package week1.day3;
 public class Fibonacci {
 	public static void main(String[] args) {
 		int n=7;
-		int a=1;
+		int a=0;
 		int b=1;
 		int c ;
 		System.out.println(a);
