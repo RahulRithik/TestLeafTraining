@@ -18,7 +18,7 @@ public class FacebookLogin {
 		
 		//login 
 		driver.findElement(By.id("email")).sendKeys("rahul.rasher.14@facebook.com");
-		driver.findElement(By.id("pass")).sendKeys("Rahulrithik@27");
+		driver.findElement(By.id("pass")).sendKeys("xxxxxxxxxxxx");
 		driver.findElement(By.name("login")).click();
 		
 	}
