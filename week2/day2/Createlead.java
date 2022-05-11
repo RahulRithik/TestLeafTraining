@@ -80,7 +80,7 @@ public class Createlead {
 				
 				driver.findElement(By.className("smallSubmit")).click();
 				
-				String texttwo=driver.findElement(By.id("sectionHeaderTitle_leads")).getText();
+				String texttwo=driver.getTitle();
 				System.out.println(texttwo);
 
 	}
