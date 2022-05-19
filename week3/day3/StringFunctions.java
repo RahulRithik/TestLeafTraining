@@ -38,10 +38,10 @@ public class StringFunctions {
 	
      //split
      String name7="Testleaf is located in nanganalur";
-     String[] split=name7.split("l");
+     String[] value=name7.split("l");
      
-     for(int i=0;i<split.length;i++) {
-    	 System.out.println(split[i]);
+     for(int i=0;i<value.length;i++) {
+    	 System.out.println(value[i]);
      }
      
     
